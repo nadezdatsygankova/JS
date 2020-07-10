@@ -1,0 +1,44 @@
+
+<link href='index.css' rel='stylesheet'/>
+<div>
+<div>Email:
+    <br>
+    <input id='email' value='bass@it-kamasutra.com'>
+</div>
+<div>Password:
+    <br>
+    <input id='password' value ='************'>
+</div>
+<div>
+    <input type='checkbox' id='labelV' value= 'Remember me:' > <label >Remember me</label> 
+    
+      <button id='login' >Log In</button>
+
+    </div>
+</div>
+
+<script>
+var loginButton=document.getElementById('login');
+var emailEl=document.getElementById('email');
+var passwordEl=document.getElementById('password');
+var checkEl=document.getElementById('labelV');
+
+function fun()
+{
+    
+    var check=document.getElementById('labelV');
+        if (check.checked){
+            alert('true');
+        }
+        else {
+            alert('false');
+        }
+}
+loginButton.onclick=function(){
+    window.alert("login:"+ emailEl.value + "; \n" + "password: "+passwordEl.value +";\n" + 'Remember me:' + checkEl.checked);
+    // window.alert("password: "+passwordEl.value);
+    // window.alert( 'Remember me:' + checkEl.checked);
+}
+
+
+</script>

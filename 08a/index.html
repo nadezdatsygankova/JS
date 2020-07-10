@@ -1,0 +1,50 @@
+<input value='Nadia' class='first-name input' id='first-name' />
+<input value='Tsyy' class='last-name input' id='last-name' />
+<input value='Toronto' class='address-name input' id='address-name' />
+
+<select id='Cities'>
+    <option>Kiev</option>
+    <option selected='selected'>Minsk</option>
+    <option>Moskow</option>
+</select>
+
+<textarea id='hobbies'>Js,Css,Html</textarea>
+<div id='avatar-wrapper'><img id='avatar' src='https://sun9-17.userapi.com/c847124/v847124803/103991/x5QYnLJHHrw.jpg ' alt='avatar'></div>
+<script>
+
+    var firstNameE1= document.getElementById('first-name');
+    //  var firstNameId;
+    var lastNameE1= document.getElementById('last-name');
+    var addressE1= document.getElementById('address-name');
+    //  firstNameId='first-name';
+    var citiesId = 'Cities';
+    var citiesEl=document.getElementById(citiesId);
+    var hobbiesID = 'hobbies';
+    var hobbiesEL=document.getElementById(hobbiesID);
+    var divId = 'avatar-wrapper';
+    var divEl = document.getElementById(divId); 
+    var imgId='avatar';
+    var inmEl=document.getElementById(imgId);
+    
+    
+    
+
+
+
+    
+    
+
+    // window.alert(firstNameE1.value);
+    // window.alert(firstNameE1.className);
+    // window.alert(lastNameE1.value);
+    // window.alert(lastNameE1.className);
+    // window.alert(addressE1.value);
+    // window.alert(addressE1.className);
+    //  window.alert(citiesEl.value); 
+    //  window.alert(citiesEl.innerHTML); 
+    // window.alert(hobbiesEL.value); 
+    window.alert(divEl.innerHTML);
+    window.alert(hobbiesEL.innerHTML);
+    window.alert(inmEl.src);
+    window.alert(inmEl.alt);
+</script>

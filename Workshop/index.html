@@ -1,0 +1,46 @@
+<input id='first-name' value='Dmitry' class='first-name-input' />
+ <input id='lastName' value='Tsy'>
+ <input id='address' value='Toronto'>
+
+
+<select  id="cities">
+    <option selected='select'>Moscow</option>
+    <option >Minsk</option>
+    <option >Kiev</option>
+</select>
+
+
+<textarea id='hobbies'>JS, C++, CSS, HTML</textarea>
+
+<div id='avatarDiv'><img id='imgN' src="https://sun9-10.userapi.com/c847124/v847124803/10399d/mYySMOIpfww.jpg?ava=1" alt="avatar"></div>
+
+<script>
+
+var firstNameEl = document.getElementById('first-name');
+var lastNameEl=document.getElementById('lastName');
+var addressEl=document.getElementById('address')
+var selectEl=document.getElementById('cities');
+var hobbiesEl=document.getElementById('hobbies');
+var avatarEl=document.getElementById('avatarDiv');
+var imgEl=document.getElementById('imgN');
+
+
+
+console.log(firstNameEl.value);
+console.log(firstNameEl.className);
+
+console.log(lastNameEl.value);
+console.log(addressEl.value);
+
+console.log(selectEl.value);
+console.log(selectEl.innerHTML);
+console.log(hobbiesEl.value);
+console.log(hobbiesEl.innerHTML);
+console.log(avatarEl.value);
+console.log(avatarEl.innerHTML);
+console.log(imgEl.src);
+console.log(imgEl.alt);
+
+
+
+</script>
