@@ -1,0 +1,9 @@
+input{
+    background-color: aquamarine;
+    width: 200px;
+}
+
+.error
+{
+    border:red 1px solid;
+}
