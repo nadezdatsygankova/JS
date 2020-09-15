@@ -1,0 +1,18 @@
+1. git init - initializes the current folder as a git repository
+
+2. git-status 
+- current status of the folder
+
+3. git add . - all in repository
+
+4. git commit -m "first commit" - commit the changes to the git repository
+
+5. git log -oneline - see a brief log of commits 
+
+6. git checkout <commit> <file> - checkout the file from an older commit
+
+7. git reset HEAD --- unstage a staged file, but leave working directory unchanged 
+
+8. git reset - last commit 
+
+9.new
