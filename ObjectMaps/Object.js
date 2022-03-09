@@ -9,7 +9,6 @@ console.log(colors);
 // objectName.key
 console.log(colors.yellow);
 
-
 // Challenge: 
 // 1. Create three variables - bar, cafe, restaurant - and set their values to a bar, a cafe and a restaurant in your city
 // 2. Create an object - favouritePlaces - and populate it with your variables from task 1
