@@ -35,3 +35,21 @@ map1.set('key', 'value');
 map1.forEach((value, key) => {
   console.log(key, value);  
 });
+
+
+
+//favouritePlace 
+
+const favouritePlace = {
+    music: "jazz",
+    name: "Paris House"
+};
+
+const favouritePlaceMap= new Map ([
+    ['music', "jazz"],
+    ['name',"Parix House"]
+]);
+
+musicUser.set('visited',true);
+musicUser.set('averageBill',0);
+console.log(musicUser.get('averageBill'));
